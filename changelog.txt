@@ -1,0 +1,43 @@
+15/11/18 (Launch)
+- Made changes suggested by practice staff
+- [Main site] Uploaded new links
+- GPVA added to main site
+1/12/18
+- Access statement now links correctly to new doc
+- [Main site] Updated advice links
+- [Main site] Formatting
+- Added opening hours
+- Added list of GPs
+- Added fulfilling a prescription
+- Split info into two additional sections: info_staff and info_contact
+- Rounded buttons
+- Moved Contact/Find us (info_contact) to front page
+- Improved access button
+- Wording and format improvements
+- Mobile friendly changes
+2/12/18
+- Changed color of list GPs button to fit consistent theme (black -> cyan)
+11/12/18
+- Changed drop-down text to appear under respective buttons for services_ pages
+- Removed "--" from main index and "<!--" from serv_scripts
+- Re-worded patient online message
+- Fixed contact us under patient online messages
+09/01/19
+- Fixed logos on GPVA home
+- Decided against note that people go to info_ for finding directions because it is clear that it is under contact/find-us option on home instead
+24/01/19
+- Added times to call for test results, appointments and prescriptions
+- Added info on emerency line on opening hours
+- Converted urgent drop-down to modal in index
+- Clarified in find-us to 'click for larger map' for directions
+- Pushed updates to plesk & updated update badge with 2019 on website
+- Added directions to branch surgeries
+23/01/19
+- Fixed prescriptsions being available over the phone; replaced with at reception with link to Find Us
+- Fixed phonelines displaying open until 6:30 when they close at 6
+25/02/19
+- Removed test results online link
+- Made home button return to advice home for advice pages
+- Reworked medical advice to be easier to use
+- It's urgent reworked for smoking_advice & imported from index for medical_advice
+- Removed error i need some help from smoking
