@@ -28,28 +28,35 @@
 
     <!--
     <![if !IE>
-        <link rel="icon" href="/img/Assistant.gif" type="image/x-icon" />
+        <link rel="icon" href="/gpva/img/Assistant.gif" type="image/x-icon" />
     <![endif]>
     !-->
-    <link rel="icon" href="/aspenmedicalpractice/img/Assistant_logo.png" type="image/ico" />
+    <link rel="icon" href="/gpva/img/Assistant_logo.png" type="image/ico" />   
     <title>Virtual Assistant</title>
 </head>
 
     
 <body><!--#BODY#-->
- 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZMLB3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --
     
    
     
 <!-- Menu start-->
     
 <!--Welcome-->
+
+<nav class="navbar fixed-top navbar-light" style='background-color: orange;'>
+    <h3 style='color: black; text-align: center;'>Disclaimer: This is NOT an active medical service, it has been archived and links may be outdated or non-functional. For medical advice and information please visit your GP or hospital website.</h3>
+</nav>
+
 <div class="container">
 <div class="row">
     <div>
-         
-        <h2 class="modal-title" id="centerTxts"><br><br>You have reached the home for GP Virtual Assistants.</h2>
-
+        <h2 class="modal-title" id="centerTxts"><br><br>Welcome to our virtual assistant, how may we help you?</h2>
+        <img src="gpva/img/Assistant_1loop.gif" class="centerImgs" id="assistantIMG">
     </div>
     
     <!--Menu section start-->
@@ -64,76 +71,63 @@
     <!--#1h-->
     <div class="panel panel-NEW text-center topPanel">
         <div class="panel-heading" role="tab" id="headingOne" >
-            <h4 class="panel-title" id="panel-titleMOD">For the GP Virtual Assistant, please select your medical practice from the list below</h4> 
-            <a href="/aspenmedicalpractice/"><button type="button" class="btn btn-new btn-lg lrgBtn">Aspen Medical Practice</button></a>
-            
+            <h4 class="panel-title" id="panel-titleMOD">I need to use a service</h4> 
+            <a href="gpva/services_appts.html"><button type="button" class="btn btn-new btn-lg lrgBtn">Appointments</button></a>
+            <a href="gpva/services_scripts.html"><button type="button" class="btn btn-new btn-lg lrgBtn">Prescriptions</button></a>
+            <a href="gpva/services_tests.html"><button type="button" class="btn btn-new btn-lg lrgBtn">Test results</button></a>
+            <a href="gpva/services_sicknotes.html"><button type="button" class="btn btn-new btn-lg lrgBtn">Sick notes</button></a>
         </div>
     </div>
 
-    <div class="panel panel-NEW text-center topPanel">
-        <div class="panel-heading" role="tab" id="headingOne" >
-            <h4 class="panel-title" id="panel-titleMOD">If you are looking for a health Game for Science please select below</h4> 
-            <a href="/RWB19_dissim/"><button type="button" class="btn btn-new btn-lg lrgBtn">Disease Simulator <br>(RWB Showcase 2019)</button></a>
+    <!--#4h-->
+    <div class="panel panel-NEW text-center">
+        <div class="panel-heading" role="tab" id="headingFour">
+           <h4 class="panel-title" id="panel-titleMOD">I need information</h4>
+            <a href="gpva/info.html"><button type="button" class="btn btn-new btn-lg lrgBtn">About the practice</button></a>
+            <a href="gpva/info_contact.html"><button type="button" class="btn btn-pop btn-lg lrgBtn">Contact/Find-Us</button></a>
+        </div>
+    </div>
+        
+        <!--#5h-->
+    <div class="panel panel-NEW text-center">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title" id="panel-titleMOD">I need medical advice</h4>
+            <a href="gpva/advice.html"><button type="button" class="btn btn-new btn-lg lrgBtn">Get advice online</button></a>
             
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-URGENT btn-lg lrgBtn aBtn" data-toggle="modal" data-target="#myModal">It's urgent</button>
+            </a>
         </div>
     </div>
             
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content panel-URGENT">
+      <div class="modal-header panel-URGENT">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Urgent advice</h4>
+      </div>
+      <div class="modal-body panel-URGENT">
+        <h4 id="centerTxts"><strong>If it's an emergency call 999.<br>
+                If it's not an emergency but you still need urgent advice call 111.</strong>
+            </h4>
+      </div>
+      <div class="modal-footer panel-URGENT">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
   </div>
-    <div class="spacer">
-        </div>
- </div> <!--/accordian-->
-    
-    <div class="container-fluidd col-sm-0 col-md-2 col-lg-3 col-xl-3">
-        
-        
-    
-    </div>
+</div> 
+
+</div> <!-- Row -->
+</div> <!-- Container -->
     
 </div> <!--/container-->
-
-<!--Footer-->
-<footer class="page-footer font-small blue pt-4">
-
- <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-      
-        <!-- Single button -->
-<div class="btn-group">
-    <p>Made possible by:</p>
-    <a href="http://www.bristol.ac.uk/"><img src="img/uob.png" class="logos"></img></a>
-      
-    <a href="https://www.swdtp.ac.uk/"><img src="img/escrswdtpcombined.png"class="logos"></img></a>
-
-    <a href="http://www.bristol.ac.uk/brigstow/"><img src="img/Brigstow.png"class="logos"></img></a>
-<a href="http://www.bristol.ac.uk/red/nec/"><img src="img/NEC.jpg"class="logos"></img></a>
-    <a href="https://www.aspenmedicalpractice.nhs.uk/"><img src="img/AMP.png"class="logos"></img></a>
-  </ul>
-</div>
-    
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-        <img src="">
-        
-        <!-- Single button -->
-<div class="btn-group">
-    <p><br><br>© 2018 Copyright:</p>
-    <img src="img/logo4_astral2_tp_inv.png"class="myLogo"></img>
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="copyrightLink">
-    Dauntless R&D <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" >
-    <li>cm14911@bristol.ac.uk</li>
-
-  </ul>
-</div>
-       
-
-    </div>
-    <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
-
 
 <!-- jQuery and javascript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -143,19 +137,7 @@
   <script type="text/javascript">
     // Quickstart within-button pop-over //
     $("[data-toggle=popover]").popover();
-  });
-  var audioElm = document.getElementById('ambiance'); audioElm.muted = !audioElm.muted;
-`   </script>
-    <script type="text/javascript">
-    // Quickstart within-button pop-over //
-    if ("ga" in window) {
-    tracker = ga.getAll()[0];
-    if (tracker)
-        tracker.send("event", "Test", "Test GA");
-    }
-    </script>
+    
 </body>
 
-
-    
 </html>
